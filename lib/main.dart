@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
   PageController _pageController;
   int _page = 0;
 
-  String broker = '192.168.0.8';
+  String broker = 'http://test.mosquitto.org';
   mqtt.MqttClient client;
   mqtt.MqttConnectionState connectionState;
 
